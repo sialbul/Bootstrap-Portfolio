@@ -27,34 +27,36 @@ html {
   /*text on the images */
 
   #bigimg {
-    bottom:20px;
-    width:75.5%;
+    bottom:40px;
+    left: 10px;
+    width:100%;
     background-color: #4aaaa5;
     position: absolute;
     color:white;
-    margin: 10px;
     text-align: center;}
 
     #smallimg {
-    bottom:30px;
-    width:82%;
+    bottom:40px;
+    width:100%;
+    left: 10px;
+
     background-color: #4aaaa5;
     position: absolute;
     color:white;
-    margin: 10px;
     text-align: center;}
 
     #smallimg2 {
-    bottom:20px;
-    width:82%;
+    bottom:40px;
+    width:100%;
+    left: 10px;
     background-color: #4aaaa5;
     position: absolute;
     color:white;
-    margin: 10px;
     text-align: center;  
     }
 
 
    .thumbnail{
     position:relative;
+    padding: 0;
     }
