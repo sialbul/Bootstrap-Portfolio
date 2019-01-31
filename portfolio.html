@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+
+  <!-- We link our html to the Bootstrap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="index.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <!-- Section 1: Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- Our brand / logo -->
+        <h1><a class="navbar-brand" href="#">M. Sibel Baslamisli</a></h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+      <!-- Collapsible button -->
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <!-- The links of our navbar -->
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Index</a>
+        </li>
+
+        <li class="nav-item active">
+          <a class="nav-link" href="portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact </a>
+        </li>
+      </ul>
+    </div>
+    </nav>
+
+  <!-- Container Div -->
+  <div class="container">
+                                  
+    <div class="jumbotron">
+        <div class="page-header">
+            <h2>Portfolio</h2>             
+        </div>
+             
+        <div class="row">
+            <div class="col-lg-4 thumbnail">
+                <img src="PlantsVsZombies.png" style="width:50%" >
+                        <div class="caption" id="smallimg">
+                        <p>Plants Vs Zombies</p>
+                        </div>
+            </div>
+            <div class="col-lg-4 thumbnail">
+                        <img src="minecraft.png" style="width:60%">
+                        <div class="caption" id="smallimg2">
+                        <p>Minecraft</p>
+                        </div>
+               
+            </div>
+            <div class="col-lg-4 thumbnail">
+                <img src="subway.jpg" style="width:50%">
+                    <div class="caption" id="smallimg">
+                        <p style="text-align: center">Subway</p>
+                    </div>          
+            </div>
+        </div>    
+        <div class="row">
+            <div class="col-lg-6 thumbnail">
+                <img src="candycrush.jpg"  style="width:80%" >
+                    <div class="caption" id="bigimg">
+                        <p >Candy Crush</p>
+                    </div>
+            </div>
+            <div class="col-lg-6 thumbnail">
+                <img src="clash-of-clans.png" style="width:80%">
+                    <div class="caption" id="bigimg">
+                    <p>Clash of Clans</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+   </div>
+    
+    
+    <footer class="footer navbar-dark bg-dark">
+            <div class="container">
+            <p class="text-muted">Copyright &#174</p>
+            </div>
+    </footer>
+
+
+</body>
+</html>
